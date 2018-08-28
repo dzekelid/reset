@@ -17,11 +17,41 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "1638385"
 tags: Reset
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/reset/master/_listings/mocklab/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: WireMock - Post Mappings Reset
+  x-api-slug: mappingsreset-post
+  description: Reset stub mappings (restore to defaults defined back the backing store)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mocklab_Logo_4x.png
+  humanURL: https://get.mocklab.io
+  baseURL: https:////__admin
+  tags: Mocking, Virtualizations, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reset/master/_listings/mocklab/mappingsreset-post-openapi.md
+- name: WireMock - Post Requests Reset
+  x-api-slug: requestsreset-post
+  description: Empty the request journal
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mocklab_Logo_4x.png
+  humanURL: https://get.mocklab.io
+  baseURL: https:////__admin
+  tags: Mocking, Virtualizations, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reset/master/_listings/mocklab/requestsreset-post-openapi.md
+- name: WireMock - Post Scenarios Reset
+  x-api-slug: scenariosreset-post
+  description: Reset the state of all scenarios
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mocklab_Logo_4x.png
+  humanURL: https://get.mocklab.io
+  baseURL: https:////__admin
+  tags: Mocking, Virtualizations, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reset/master/_listings/mocklab/scenariosreset-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://microsoft.office.365.api.gallery.streamdata.io

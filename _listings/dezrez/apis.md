@@ -7,11 +7,41 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Reset
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/reset/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Dezrez.Rezi.Client.Api - Reset tenant role milestones back to agency defaults
+  x-api-slug: apiprogressionlettingsidresetmilestones-post
+  description: Reset tenant role milestones back to agency defaults.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reset/master/_listings/dezrez/apiprogressionlettingsidresetmilestones-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Reset agency default milestones back to global defaults
+  x-api-slug: apiprogressionlettingsresetdefaultmilestones-post
+  description: Reset agency default milestones back to global defaults.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reset/master/_listings/dezrez/apiprogressionlettingsresetdefaultmilestones-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Reset the holding deposit for a role
+  x-api-slug: apiroleidreleaseholdingdeposit-post
+  description: Reset the holding deposit for a role.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reset/master/_listings/dezrez/apiroleidreleaseholdingdeposit-post-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/dezrez

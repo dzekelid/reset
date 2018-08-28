@@ -6,11 +6,71 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Reset
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/reset/master/_listings/rebilly/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Rebilly - Create a Reset Password Token
+  x-api-slug: passwordtokens-post
+  description: Create a Reset Password Token
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reset/master/_listings/rebilly/passwordtokens-post-openapi.md
+- name: Rebilly - Delete a Reset Password Token
+  x-api-slug: passwordtokensid-delete
+  description: Delete a Reset Password Token with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reset/master/_listings/rebilly/passwordtokensid-delete-openapi.md
+- name: Rebilly - Retrieve a Reset Password Token
+  x-api-slug: passwordtokensid-get
+  description: Retrieve a Reset Password Token with specified identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reset/master/_listings/rebilly/passwordtokensid-get-openapi.md
+- name: Rebilly - Sends an email with a link containing a token to reset user password
+  x-api-slug: forgotpassword-post
+  description: Sends an email with a link containing a token to reset user password
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reset/master/_listings/rebilly/forgotpassword-post-openapi.md
+- name: Rebilly - Reset user password
+  x-api-slug: usersresetpasswordtoken-post
+  description: Reset user password
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reset/master/_listings/rebilly/usersresetpasswordtoken-post-openapi.md
+- name: Rebilly - Reset (renew) totpSecret
+  x-api-slug: usersidtotpreset-post
+  description: Reset (renew) totpSecret
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reset/master/_listings/rebilly/usersidtotpreset-post-openapi.md
 x-common:
 - type: x-website
   url: https://www.rebilly.com

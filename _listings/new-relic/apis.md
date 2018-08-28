@@ -7,11 +7,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-
 x-kinRank: "8"
 x-alexaRank: "10322"
 tags: Reset
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/reset/master/_listings/new-relic/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: New Relic - Add Users  Reset Password. Format
+  x-api-slug: usersidreset-password-format-post
+  description: This API endpoints reset the user password, identified by ID
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg
+  humanURL: https://newrelic.com/
+  baseURL: https:///v2/
+  tags: Monitoring, Performance, Stack Network, Technology, SaaS, API Service Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reset/master/_listings/new-relic/usersidreset-password-format-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://netlicensing.api.gallery.streamdata.io
